@@ -27,7 +27,7 @@ export const Home1 = () => {
             <Col sm>
             <img
               src={pic}
-              className="d-inline-block"
+              className="d-inline-block img4"
               alt="alzhimers"
             />
             </Col>

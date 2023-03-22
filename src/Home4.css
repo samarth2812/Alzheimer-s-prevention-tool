@@ -1,0 +1,57 @@
+
+  
+  .container3{
+      display:flex;
+      flex-direction: row;
+      margin-bottom: 20vh;
+  }
+  
+   .column-1 {
+    flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
+    flex-basis: 55%; /* sets initial width to 70% */
+  } 
+  .para{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vh;
+    padding: 5vh 20vh;
+  }
+
+/*   
+  .img4{
+    width: 20vw;
+    height: 30vh;
+
+  } */
+  .but{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+  }
+  .head{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .red{
+    color: red;
+    font-size: 8vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .box3 {
+    padding: 10px;
+    border-radius: 12px;
+    /* border: 2px solid rgb(116, 113, 113); */
+    margin: 1rem;
+    box-shadow: 1px 1px 1px #000;
+  }
+  @media only screen and (max-width: 900px) {
+    .container3 {
+        /* it place the items in vertical direction */
+      flex-direction: column;
+    }
+  
+    .box3 {
+      margin: 0 0 1rem;
+    }
+  }
