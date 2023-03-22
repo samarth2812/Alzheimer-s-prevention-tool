@@ -24,7 +24,11 @@ export const Home = () => {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="https://kushtest1.netlify.app/gamehomepage">Memory Games</Nav.Link>
+<<<<<<< HEAD
             <Nav.Link href="https://candid-parfait-9844f4.netlify.app/">Location Finder</Nav.Link>
+=======
+            <Nav.Link href="https://melodious-pixie-c5df35.netlify.app/">Location Finder</Nav.Link>
+>>>>>>> d5b730872959512fb9644ecaa59de2bd9ec5c7b1
             <Nav.Link className='we' href="https://bespoke-longma-159178.netlify.app/">Emergency</Nav.Link>
           </Nav>
         </Container>
