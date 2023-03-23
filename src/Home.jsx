@@ -25,7 +25,7 @@ export const Home = () => {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="https://kushtest1.netlify.app/gamehomepage">Memory Games</Nav.Link> 
             <Nav.Link href="https://candid-parfait-9844f4.netlify.app/">Location Finder</Nav.Link>
-            <Nav.Link href="https://melodious-pixie-c5df35.netlify.app/">Location Finder</Nav.Link>
+            {/* <Nav.Link href="https://melodious-pixie-c5df35.netlify.app/">Location Finder</Nav.Link> */}
             <Nav.Link className='we' href="https://bespoke-longma-159178.netlify.app/">Emergency</Nav.Link>
           </Nav>
         </Container>
